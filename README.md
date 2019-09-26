@@ -11,6 +11,8 @@ Windows:
 
 ## Usage example
 
+Auf der Startseite kann man einen neuen Cocktail erstellen. Hier gibt man einen Namen an und kann verschiedene Zutaten auswählen. Auf speichern kann man seinen Cocktail zum Cocktail-Buch hinzufügen.
+In dem CocktailBuch...
 
 ## Development setup
 
