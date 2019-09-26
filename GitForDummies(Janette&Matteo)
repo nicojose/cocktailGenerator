@@ -1,0 +1,11 @@
+//Aktuellen Stand ziehen (Check-Out)
+git fetch
+git pull
+
+//änderungen vornehmen
+
+//Änderungen hochladen (Check-In)
+git add .
+git status //alle dateien sollten jetzt grün sein
+git commit -m "Füge hier deine nachricht ein(am besten was du geändert/gemacht hast)"
+git push
