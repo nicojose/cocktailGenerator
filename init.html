@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Cocktail Generator</title>
+    <link rel="stylesheet" type="text/css" href="init.css">
+    <script src="init.js"></script>
 </head>
 
 <body>
@@ -79,7 +81,14 @@
         <!-- Giph entnommen aus: https://giphy.com/gifs/accorhotels-feel-welcome-the-feelings-l0EozZSdKRMYAAkzm-->
         <iframe src="https://giphy.com/embed/l0EozZSdKRMYAAkzm" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/accorhotels-feel-welcome-the-feelings-l0EozZSdKRMYAAkzm">via GIPHY</a></p>
         <h2>Speichere deinen Cocktail und füge ihn zum Cocktail-Buch hinzu</h2>
-        <button id="speichern">Speichern</button>
+
+        <div id="savedContainer" class="hidden">
+            <!-- Giph entnommen aus: https://giphy.com/gifs/brooklynninenine-fox-brooklyn-nine-nine-99-d2ZeMUDQSSsCP9FC-->
+            <iframe src="https://giphy.com/embed/d2ZeMUDQSSsCP9FC" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/brooklynninenine-fox-brooklyn-nine-nine-99-d2ZeMUDQSSsCP9FC">via GIPHY</a></p>
+            <h2>Super, du findest deinen Cocktail nun im Cocktail-Buch</h2>
+        </div>
+
+        <button id="speichern" onclick="saveAndCreateNewCocktail()">Speichern</button>
     </div>
 </body>
 </html>
