@@ -1,3 +1,7 @@
+//ganz zu anfang
+git clone https://github.com/nicojose/cocktailGenerator.git
+//hier wird ein neuer Ordner erstellt in, sozusagen ein Workspace. In dem arbeitet ihr lokal
+
 //Aktuellen Stand ziehen (Check-Out)
 git fetch
 git pull
