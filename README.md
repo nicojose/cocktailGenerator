@@ -25,3 +25,32 @@ In dem Cocktail-Buch werden alle gespeicherten Rezepte angezeigt. Diese können 
 
 
 ## Contributing
+
+## Janette
+ToDo List
+
+Fachliche Beschreibung der Web-Anwendung...
+
+QuickStart
+
+git clone git@github.com:johakr/programmentwurf.git
+npm install
+npm start
+http://localhost:3000
+Architektur
+
+Beschreibung der eingesetzten Technologien und Architektur. Ggf. Schaubild. Zusammenspiel Frontend <-> Backend
+
+Datenmodell
+
+Beispiel JSON für alle verwendetetn Datenmodelle
+
+[ { "id": 1, "name": "Coktail1", "zutaten": "Zutat 1, Alkohol, Saft" }, { "id": 1, "name": "Coktail2", "zutaten": "Obst, mehr Alkohol, Saft" } ]
+
+REST Services (Backend)
+
+Beschreibung aller REST Services
+
+Frontend
+
+Beschreibung aller UI Masken, Events, fetch Requests...
