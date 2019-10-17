@@ -20,5 +20,11 @@ function saveAndCreateNewCocktail(event){
       });
 }
 
-document.querySelector('#createCocktail').addEventListener('submit', saveAndCreateNewCocktail)
+function showSavedContainer()
+{
+  document.getElementById("savedContainer").classList.remove("hidden");
+  document.getElementById("speichern").style = "display:none";
+}
+document.getElementById('speichern').addEventListener('click',showSavedContainer);
+//document.querySelector('#createCocktail').addEventListener('submit', saveAndCreateNewCocktail)
   

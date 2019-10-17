@@ -20,4 +20,4 @@ function showCocktails(event){
       });
 }
 
-document.querySelector('#showCocktail').addEventListener('submit', showCocktails)
+//document.querySelector('#showCocktail').addEventListener('submit', showCocktails)

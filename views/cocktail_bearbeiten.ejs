@@ -3,33 +3,43 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Cocktail löschen</title>
+    <title>Cocktail bearbeiten</title>
     <script src=""></script> <!--Script hinzufügen-->
     <link rel="stylesheet" href=""><!--CSS hinzufügen-->
 </head>
 
 
 <body>
+    <form method="POST">
     <span>
         <a class="link" href="init.html">Generator</a>
         <a class="link" href="Cocktail_Buch.html">Cocktail Buch</a>
-        <a class="link" href="cocktail_bearbeiten.html">Bearbeiten</a>   
+        <a class="link" href="cocktail_loeschen.html">Löschen</a>   
     </span>
 
-    <h1>Lösche deinen Cocktail</h1>
+    <h1>Bearbeite deinen Cocktail</h1>
     <div>
-        <h2>Gib die Cocktail-ID ein und bye bye ;)</h2>
+        <h2>Gib die Cocktail-ID ein und ran ans Werk</h2>
         <span>
-            <input type="text" id="name">
-            <button id="delete">Löschen</button>
+            <input type="text" name="oldName">
         </span>
-        
     </div>
     
+    <div>
+        <h2>Gib einen neuen Namen ein:</h2>
+        <input type="text" name="newName">
+        
+    </div>
+    <div>
+        <button type="submit" id="send_changes">Bearbeiten</button>
+    </div>
+    
+
     <span>
         <a class="link" href="init.html">Generator</a>
         <a class="link" href="Cocktail_Buch.html">Cocktail Buch</a>
-        <a class="link" href="cocktail_bearbeiten.html">Bearbeiten</a>   
+        <a class="link" href="cocktail_loeschen.html">Löschen</a>   
     </span>
+</form>
 </body>
 </html>
