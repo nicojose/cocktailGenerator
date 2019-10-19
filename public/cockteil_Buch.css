@@ -1,3 +1,14 @@
 body{
     text-align: center;
 }
+span{
+    font-style: italic;
+}
+#cocktail{
+    color: coral;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title{
+    text-decoration: underline overline;
+}
