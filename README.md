@@ -1,7 +1,6 @@
 # cocktailGenerator
 Generator für Cocktails
-Die Anwendung kann erstellt durch Eingabe eines Nutzers einen Cocktail
-
+Die Anwendung erstellt einen Cocktail nach der Namenseingabe durch einen Nutzer.
 ## QuickStart
 ### Lokal
 git clone https://github.com/nicojose/cocktailGenerator.git
@@ -10,7 +9,7 @@ node server.js
 localhost:3000/home
 
 ### Im Web
-
+Im Web erreichbar unter: 104.248.32.110:8080/home
 
 ## Architektur
 Das Backend nutzt eine REST-Api. Die Daten werden aus durch eine Variable aus dem Frontend abgegriffen und können somit bearbeitet werden.
