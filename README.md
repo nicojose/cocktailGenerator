@@ -4,7 +4,10 @@ Die Anwendung kann erstellt durch Eingabe eines Nutzers einen Cocktail
 
 ## QuickStart
 ### Lokal
-
+git clone https://github.com/nicojose/cocktailGenerator.git
+npm install
+node server.js
+localhost:3000/home
 
 ### Im Web
 
